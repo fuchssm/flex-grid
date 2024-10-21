@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa-1{
+    display: flex;
+    background-color: #c314e6;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    color: #e61488;
+}
+
+.caixa-2{
+    display: flex;
+    background-color: #ffe5ff;
+    width: 95%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caixa-3{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(175, 111, 248);
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-4{
+    display: flex;
+    background-color: rgb(237, 167, 243);
+    width: 5%;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px ;
+    border: 1px solid black;
+    color: #ebebeb;
+}
+
+.caixa-5{
+    display: flex;
+    background-color: rgb(237, 167, 243);
+    width: 90%;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    border: 1px solid black;
+}

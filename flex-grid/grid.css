@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    margin: 8px;
+    gap: 8px;
+
+    display: grid;
+    /*grid-template-columns: 300px 100px;*/
+    /*grid-template-columns: 10px 1fr 2fr;*/
+    grid-template-columns: 1fr 2fr 3;
+}
+.item{
+    background-color: rgb(220, 224, 18);
+}
+.item-1{
+    height: 100vh;
+}
+.item-2{
+    height: 800px;
+}
